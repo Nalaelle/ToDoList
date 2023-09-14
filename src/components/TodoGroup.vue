@@ -41,7 +41,8 @@ const onDraggableChange = (payload: any) => {
                 <template #item="{element: todo}">
                     <li>
                         {{ todo.title }} : {{ todo.status }}
-                        <span class="delete-icon" @click="deletedTodo(todo)" >X</span>
+        
+                        <span class="delete-icon" @click="deletedTodo(todo)" > X </span>
                         <div>
                             <span class="todo-description">{{ todo.description }}</span>
                         </div>
@@ -76,6 +77,7 @@ const onDraggableChange = (payload: any) => {
     position: relative;
     font-size: 16px;
     border-radius: 10px;
+    padding-right: 25px;
     /* box-shadow: 4px 3px 8px -3px rgb(237, 236, 236); */
     /* overflow: hidden;
     text-overflow: ellipsis; */
@@ -101,6 +103,7 @@ const onDraggableChange = (payload: any) => {
     cursor: pointer;
     width: 15px;
     height: 15px;
+    /* margin-left: 10px; */
     background: #ae06cd;;
     border-radius: 50%;
     font-size: 10px;

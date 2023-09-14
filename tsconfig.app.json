@@ -4,8 +4,6 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
-    "allowImportingTsExtensions": true, // ajout
-    "emitDeclarationOnly": true, // ajout
     "moduleResolution": "bundler", // ajout
     "baseUrl": ".",
     "paths": {
