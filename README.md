@@ -2,10 +2,12 @@
 Projet ToDoList
 typescript - Vue 3 : composition API
 
-La todo s'enregistre dans le localstorage
+Les todos créer peuvent être déplacer d'une catégorie à une autre grâce à la librairie Draggable
+disponible [Sur ce repo ](https://github.com/SortableJS/vue.draggable.next)
+La todo s'enregistre dans le localstorage.
 
 
-This template should help get you started developing with Vue 3 in Vite.
+
 
 ## Recommended IDE Setup
 
