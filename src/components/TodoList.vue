@@ -5,7 +5,7 @@ import TodoGroup from "./TodoGroup.vue"
 </script>
 
 <template>
-      <div class="groups-wrapper">
+      <div class="groups-wrapper res">
             <TodoGroup :status="TodoStatus.Pending" />
             <TodoGroup :status="TodoStatus.InProgress" />
             <TodoGroup :status="TodoStatus.Completed" />
@@ -18,6 +18,12 @@ import TodoGroup from "./TodoGroup.vue"
       display: flex;
       justify-content: center;
       gap: 20px;
+}
+
+@media (max-width: 700px) {
+      .res {
+        flex-direction: column;
+    }
 }
 
 </style>

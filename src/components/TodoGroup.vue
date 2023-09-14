@@ -57,15 +57,14 @@ const onDraggableChange = (payload: any) => {
     flex: 1;
     padding: 20px;
     background-color: #0b375d;
-    /*  */
     display: flex;
     flex-direction: column;
-    widows: 300px;
 }
 .groups-wrapper > h3{
-    background: #dedada32;
     padding-left: 10px;
-    /* border-radius: 20px; */
+    background-color: #761cedad;
+    order: -1;
+    justify-content: flex-start;
 
 }
 .groups-wrapper li{
@@ -77,8 +76,7 @@ const onDraggableChange = (payload: any) => {
     position: relative;
     font-size: 16px;
     border-radius: 10px;
-    box-shadow: 4px 3px 8px -3px rgb(237, 236, 236);
-    /* box-shadow: -5px 4px 0px 0px #fff5f5; */
+    /* box-shadow: 4px 3px 8px -3px rgb(237, 236, 236); */
     /* overflow: hidden;
     text-overflow: ellipsis; */
     /* white-space: nowrap; */
@@ -103,10 +101,12 @@ const onDraggableChange = (payload: any) => {
     cursor: pointer;
     width: 15px;
     height: 15px;
-    background: #060dcd;
-    /* margin-left: 5px; */
+    background: #ae06cd;;
     border-radius: 50%;
     font-size: 10px;
 }
+
+
+
 
 </style>

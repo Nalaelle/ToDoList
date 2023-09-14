@@ -45,11 +45,10 @@ watch(name, (newVal) => {
     align-items: center;
     background: #2b394546;
 
-    width: 50%;
+    width: 340px;
     margin-bottom: 30px;
+    padding-bottom: 10px;
 
-    /* place-items: center; */
-    /* text-align: center; */
 }
 h1 {
     font-weight: bold;
@@ -71,6 +70,11 @@ h1 {
     outline: none;
     background: #d2caca8e;
 }
-
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
 
 </style>
